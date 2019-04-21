@@ -1,10 +1,12 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/17a2c584-8327-4283-96ec-24998c924c8e/deploy-status)](https://app.netlify.com/sites/stoic-saha-0176b8/deploys)
+
 # portland_brothers
 
 > Site to promote the bros
 
 ## Build Setup
 
-``` bash
+```bash
 # install dependencies
 $ npm install
 
