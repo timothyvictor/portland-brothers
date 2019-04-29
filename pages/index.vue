@@ -65,7 +65,7 @@
       </p>
       <ul class="link-list">
         <li class="link-list__item">
-          <a class="link-list__link" href="mailto:stevenjadams@hotmail.com"
+          <a class="link-list__link" href="mailto:singingadams@gmail.com"
             >Email</a
           >
         </li>
