@@ -2,10 +2,10 @@
   <div>
     <header class="hero">
       <h1 class="hero__heading">Portland Brothers</h1>
-      <p class="hero__content">Old friends; new songs.</p>
+      <!-- <p class="hero__content">Old friends; new songs.</p> -->
     </header>
     <main class="main">
-      <h6 class="main__heading">The brothers</h6>
+      <!-- <h6 class="main__heading">The brothers</h6> -->
       <!-- <p class="main__paragraph">
         Steven Adams and Timothy Victor first met in the summer of 2001 at The
         Portland Arms, Cambridge. Adams had just put together The Broken Family
@@ -45,26 +45,33 @@
       </p>-->
 
       <p class="main__paragraph">
-        Steven Adams and Timothy Victor first met in the summer of 2001 at The
-        Portland Arms, Cambridge. They got involved.
+        We are Steven Adams and Timothy Victor and we do songs.
       </p>
       <p class="main__paragraph">
-        Portland Brothers sees the duo returning to the music that first brought
-        them together; writing and singing songs that reflect their shared love
-        of folk music, country rock and classic disco. They’re currently writing
-        and recording for an album due for release later in 2019.
+        Adams was in The Broken Family Band. TV produced their first two records
+        and played with the band. A lot.
+      </p>
+      <p class="main__paragraph">
+        We played together in The Singing Adams and made a record together
+        called 'Problems'. TV also plays with his band The Folk Orchestra. Adams
+        plays solo and with his band The French Drops.
+      </p>
+      <p class="main__paragraph">
+        We first met in a pub called The Portland Arms.
+      </p>
+      <p class="main__paragraph">
+        We like folk and pop and country and all the other types of music. Get
+        in touch.
       </p>
       <ul class="link-list">
         <li class="link-list__item">
-          <a
-            class="link-list__link"
-            href="https://portlandbrothers.bandcamp.com/"
-            >Go and get our music</a
+          <a class="link-list__link" href="mailto:stevenjadams@hotmail.com"
+            >Email</a
           >
         </li>
         <li class="link-list__item">
           <a class="link-list__link" href="https://twitter.com/portbros"
-            >Twitter: @portbros</a
+            >Twitter</a
           >
         </li>
         <!-- <li class="link-list__item">
