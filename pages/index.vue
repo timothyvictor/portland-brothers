@@ -1,52 +1,56 @@
 <template>
   <div>
     <header class="hero">
-      <h1 class="hero__heading">Portland Brothers</h1>
-      <!-- <p class="hero__content">Old friends; new songs.</p> -->
+      <img
+        class="hero__logo"
+        src="~assets/images/portland_logo_coloured.svg"
+        alt="Portland Brothers"
+      />
+      <!-- <h1 class="hero__heading">Portland Brothers</h1> -->
     </header>
     <main class="main">
-      <!-- <h6 class="main__heading">The brothers</h6> -->
-      <!-- <p class="main__paragraph">
-        Steven Adams and Timothy Victor first met in the summer of 2001 at The
-        Portland Arms, Cambridge. Adams had just put together The Broken Family
-        Band, who would go on to be one of the best-loved cult bands to come out
-        of the city, whilst TV was playing in Chris T-T’s band and fronting his
-        own, sprawling ‘country and eastern’ outfit The Folk Orchestra.
-      </p>
-
-      <p class="main__paragraph">
-        Over the next few years the two became firm friends, with Victor
-        producing the first two Broken Family Band albums and performing live
-        with the group as the unofficial ‘fifth member’. They also collaborated
-        on the 2005 album ‘Problems’, played a few sweaty London club shows with
-        a short-lived rock band, and sang together as part of an unaccompanied
-        vocal group, wearing false beards.
-      </p>
-
-      <p class="main__paragraph">
-        Since The Broken Family Band split in 2009, Adams has continued to
-        perform and record, releasing two albums with breezy indie-rock outfit
-        Singing Adams, and two solo records as well as last year’s
-        politically-charged Virtue Signals (as Steven Adams & The French Drops).
-        TV continued to perform with The Folk Orchestra, as well as writing
-        music for television and doing ‘something with computers’.
-      </p>
-
-      <p class="main__paragraph">
-        Adams says: “When we first met, TV lived in London and I lived in
-        Cambridge. A couple of years later I moved to London and he now lives in
-        Cambridge. I don’t know if this means anything”.
-      </p>
-
-      <p class="main__paragraph">
-        TV says: “My band played Steve’s birthday party at his house last year,
-        and we sang together for the first time in ages. That was when we
-        realised we should make some music together.”
-      </p>-->
-
-      <p class="main__paragraph">
-        We are Steven Adams and Timothy Victor and we do songs.
-      </p>
+      <div class="main__media">
+        <article class="media">
+          <header class="media__header">
+            <h4 class="media__heading">Shake Off The Dust video</h4>
+            <p>Hand stiched by Steve</p>
+          </header>
+          <div class="media__video">
+            <iframe
+              title="youtube player"
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/BXl7g7nqztU"
+              frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </article>
+      </div>
+      <div class="main__media">
+        <article class="media">
+          <header class="media__header">
+            <h4 class="media__heading">First EP</h4>
+            <p>Now on Spotify</p>
+          </header>
+          <div class="media__spotify">
+            <iframe
+              title="Spotify player"
+              src="https://open.spotify.com/embed/album/0JSpmsF8C2xMPe8wmsSSJH"
+              width="300"
+              height="210"
+              frameborder="0"
+              allowtransparency="true"
+              allow="encrypted-media"
+            ></iframe>
+          </div>
+        </article>
+      </div>
+      <header class="main__header">
+        <h1 class="main__heading">Portland Brothers</h1>
+        <p>We are Steven Adams and Timothy Victor and we do songs.</p>
+      </header>
       <p class="main__paragraph">
         Adams was in The Broken Family Band. TV produced their first two records
         and played with the band. A lot.
@@ -109,29 +113,46 @@ export default {
 */
 
 .hero {
-  background-image: url('~assets/images/IMG_0011-2.jpg');
+  background-image: url('~assets/images/dirty_boy_header.jpg');
   background-position: center;
   background-size: cover;
-  height: 300px;
+  /* height: 300px; */
   text-align: center;
-  box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.75);
+  /* box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.75); */
+  padding: 20px;
+  background-color: #db8e3a;
+  background-blend-mode: hard-light;
 }
-.hero__heading {
+
+.hero__logo {
+  width: 100%;
+}
+/* .hero__heading {
   color: white;
 }
 
 .hero__content {
   color: bisque;
-}
+} */
 .main {
   /* background-color: hsl(12, 40%, 91%); */
   color: #3d4852;
   padding: 10px;
+  max-width: 900px;
+  margin: auto;
 }
+
+.main__media {
+  padding-bottom: 20px;
+}
+
+.main__header {
+  margin-bottom: 20px;
+}
+
 .main__heading {
   font-size: 20px;
   margin-top: 10px;
-  margin-bottom: 20px;
 }
 
 .main__paragraph {
@@ -154,29 +175,47 @@ export default {
   font-weight: bold;
 }
 
+.media__header {
+  margin-bottom: 10px;
+}
+
+.media__video {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+.media__video iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
 @media (min-width: 475px) {
-  .hero {
+  /* .hero {
     height: 350px;
-  }
+  } */
 }
 @media (min-width: 600px) {
-  .hero {
+  /* .hero {
     height: 400px;
-  }
+  } */
 }
 @media (min-width: 750px) {
-  .hero {
+  /* .hero {
     height: 450px;
-  }
+  } */
 }
 @media (min-width: 900px) {
-  .hero {
+  /* .hero {
     height: 600px;
-  }
+  } */
 }
 @media (min-width: 1200px) {
-  .hero {
+  /* .hero {
     height: 650px;
-  }
+  } */
 }
 </style>
