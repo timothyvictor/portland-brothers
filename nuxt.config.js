@@ -11,7 +11,27 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: pkg.description }
+      { hid: 'description', name: 'description', content: pkg.description },
+      {
+        name: 'og:image',
+        content: 'https://www.portlandbrothers.com/PB_first_EP.jpg'
+      },
+      {
+        name: 'og:image:type',
+        content: 'image/jpeg'
+      },
+      {
+        name: 'og:image:width',
+        content: '2048'
+      },
+      {
+        name: 'og:image:height',
+        content: '2048'
+      },
+      {
+        name: 'og:image:alt',
+        content: 'Portland Brothers First EP'
+      }
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
   },
