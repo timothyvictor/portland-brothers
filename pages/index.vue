@@ -138,6 +138,7 @@ export default {
 
 .hero__logo {
   width: 100%;
+  max-width: 700px;
 }
 /* .hero__heading {
   color: white;
