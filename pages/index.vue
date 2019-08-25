@@ -99,6 +99,18 @@ export default {
           content:
             'Steven Adams (The French Drops, The Singing Adams and The Broken Family Band) and Timothy Victor (the Folk Orchestra) getting down and dirty with the folk.'
         }
+      ],
+      link: [
+        { rel: 'preconnect', href: 'https://stats.g.doubleclick.net' },
+        { rel: 'preconnect', href: 'https://www.googletagmanager.com' },
+        { rel: 'preconnect', href: 'https://yt3.ggpht.com' },
+        { rel: 'preconnect', href: 'https://fonts.gstatic.com' },
+        { rel: 'preconnect', href: 'https://i.ytimg.com' },
+        { rel: 'preconnect', href: 'https://www.google.com' },
+        { rel: 'preconnect', href: 'https://www.google.co.uk' },
+        { rel: 'preconnect', href: 'https://www.google-analytics.com' },
+        { rel: 'preconnect', href: 'https://i.scdn.co' },
+        { rel: 'preconnect', href: 'https://open.scdn.co' }
       ]
     }
   }
