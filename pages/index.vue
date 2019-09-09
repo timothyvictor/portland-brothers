@@ -70,13 +70,41 @@
       <ul class="link-list">
         <li class="link-list__item">
           <a class="link-list__link" href="mailto:singingadams@gmail.com"
-            >Email</a
+            >singingadams@gmail.com</a
           >
         </li>
         <li class="link-list__item">
-          <a class="link-list__link" href="https://twitter.com/portbros"
-            >Twitter</a
+          <a
+            href="https://twitter.com/portbros?ref_src=twsrc%5Etfw"
+            class="twitter-follow-button"
+            data-size="large"
+            data-show-count="false"
+            >Follow @portbros</a
           >
+          <script
+            async
+            src="https://platform.twitter.com/widgets.js"
+            charset="utf-8"
+          ></script>
+          <!-- <a class="link-list__link" href="https://twitter.com/portbros"
+            >Twitter</a
+          >-->
+        </li>
+        <li class="link-list__item">
+          <span class="link-list__twiiter-button">
+            <a
+              class="twitter-timeline"
+              data-width="500"
+              data-height="500"
+              href="https://twitter.com/portbros?ref_src=twsrc%5Etfw"
+              >Tweets by portbros</a
+            >
+            <script
+              async
+              src="https://platform.twitter.com/widgets.js"
+              charset="utf-8"
+            ></script>
+          </span>
         </li>
         <!-- <li class="link-list__item">
           <a class="link-list__link" href="#">Discounted sex toys</a>
@@ -180,6 +208,7 @@ export default {
 .link-list__item {
   font-size: 18px;
   line-height: 1.6;
+  margin-bottom: 10px;
 }
 .link-list__link,
 .link-list__link:visited {
