@@ -64,9 +64,9 @@
         We first met in a pub called The Portland Arms.
       </p>
       <p class="main__paragraph">
-        We like folk and pop and country and all the other types of music. Get
-        in touch.
+        We like folk and pop and country and all the other types of music.
       </p>
+      <p class="main__sub-heading">Get in touch</p>
       <ul class="link-list">
         <li class="link-list__item">
           <a class="link-list__link" href="mailto:bros@portlandbrothers.com"
@@ -193,7 +193,14 @@ export default {
 
 .main__heading {
   font-size: 20px;
-  margin-top: 10px;
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+.main__sub-heading {
+  margin: 10px 0;
+  font-size: 18px;
+  font-weight: bold;
 }
 
 .main__paragraph {
